@@ -104,6 +104,12 @@ def create_argument_parser() -> argparse.ArgumentParser:
     )
     
     parser.add_argument(
+        '--create-dashboard',
+        action='store_true',
+        help='대화형 시각화 대시보드 생성 (지도, 차트, 3D)'
+    )
+    
+    parser.add_argument(
         '--dry-run',
         action='store_true',
         help='실제 분석 없이 입력 검증만 수행'
@@ -173,7 +179,8 @@ def setup_enhanced_config(args, base_config: dict) -> dict:
     enhanced_config['export_options'] = {
         'geojson': args.export_geojson,
         'cesium': args.export_cesium,
-        'qgis_styles': True  # 기본적으로 생성
+        'qgis_styles': True,  # 기본적으로 생성
+        'visualization': args.create_dashboard  # 대시보드 생성 여부
     }
     
     return enhanced_config

@@ -20,6 +20,7 @@ from ..io.data_loader import DataLoader
 from ..io.data_exporter import DataExporter
 from ..utils.logger_config import setup_logger
 from ..utils.validation import ConfigValidator
+# Dashboard generator will be imported lazily to avoid circular imports
 from shapely.geometry import Point
 
 
@@ -40,6 +41,7 @@ class OLSEngine:
         self.data_loader = DataLoader()
         self.data_exporter = DataExporter()
         self.config_validator = ConfigValidator()
+        self.dashboard_generator = None  # Will be loaded lazily
         
         # 처리 결과 저장
         self.config = None
@@ -88,6 +90,10 @@ class OLSEngine:
             
             # 4단계: 검증 및 요약 
             self._generate_summary_report()
+            
+            # 5단계: 시각화 생성 (선택적)
+            if self.config.get('export_options', {}).get('visualization', False):
+                self._generate_visualizations(output_dir)
             
             # 처리 완료
             end_time = datetime.now()
@@ -352,6 +358,49 @@ class OLSEngine:
                 print(f"{description:15s}: ({x:4.0f}, {y:4.0f}) -> "
                      f"OLS 범위 밖")
     
+    def _generate_visualizations(self, output_dir: str):
+        """시각화 파일들 생성"""
+        logger.info("5단계: 시각화 생성")
+        
+        try:
+            # 침투 결과 GeoDataFrame 생성
+            penetration_gdf = self.penetration_engine.create_penetration_gdf(self.results)
+            
+            # OLS 격자 로드 (있는 경우)
+            ols_grid_gdf = None
+            if self.config.get('generate_validation_grid', False):
+                # 첫 번째 활주로의 격자 파일 찾기
+                if self.config.get('runways'):
+                    first_rwy = self.config['runways'][0]['rwy_id'].replace('-', '_')
+                    grid_file = Path(output_dir) / f"ols_grid_{first_rwy}.gpkg"
+                    if grid_file.exists():
+                        ols_grid_gdf = gpd.read_file(str(grid_file), layer='ols_grid')
+            
+            # 종합 시각화 생성
+            if self.dashboard_generator is None:
+                from ..visualization.dashboard_generator import DashboardGenerator
+                self.dashboard_generator = DashboardGenerator()
+            
+            viz_output_dir = Path(output_dir) / "visualizations"
+            viz_files = self.dashboard_generator.generate_comprehensive_visualization(
+                penetration_gdf=penetration_gdf,
+                summary=self.summary,
+                results=self.results,
+                runway_configs=self.config['runways'],
+                output_dir=str(viz_output_dir),
+                ols_grid_gdf=ols_grid_gdf
+            )
+            
+            logger.info(f"시각화 생성 완료: {len(viz_files)}개 파일")
+            logger.info(f"시각화 경로: {viz_output_dir}")
+            
+            # 주요 파일 경로 로그
+            for viz_type, file_path in viz_files.items():
+                logger.info(f"  - {viz_type}: {Path(file_path).name}")
+            
+        except Exception as e:
+            logger.warning(f"시각화 생성 실패: {str(e)} (분석은 정상 완료)")
+
     def get_processing_statistics(self) -> Dict:
         """처리 통계 반환"""
         return {
