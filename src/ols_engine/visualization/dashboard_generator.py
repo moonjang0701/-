@@ -51,13 +51,19 @@ from pathlib import Path
 import json
 
 # OLS 엔진 import
-sys.path.append(str(Path(__file__).parent / "src"))
+# Streamlit 앱이 visualizations 디렉토리에서 실행되므로 상위 디렉토리 경로 추가
+webapp_root = Path(__file__).parent.parent.parent.parent  # /home/user/webapp
+sys.path.insert(0, str(webapp_root))
+
 try:
-    from ols_engine.core.engine import OLSEngine
-    from ols_engine.visualization.map_visualizer import MapVisualizer
-    from ols_engine.visualization.chart_visualizer import ChartVisualizer
-except ImportError:
-    st.error("OLS 엔진을 찾을 수 없습니다. PYTHONPATH를 확인하세요.")
+    from src.ols_engine.core.engine import OLSEngine
+    from src.ols_engine.visualization.map_visualizer import MapVisualizer
+    from src.ols_engine.visualization.chart_visualizer import ChartVisualizer
+    st.success("✅ OLS 엔진 로드 성공!")
+except ImportError as e:
+    st.error(f"❌ OLS 엔진을 찾을 수 없습니다: {str(e)}")
+    st.info("현재 경로 정보:")
+    st.code(f"현재 파일 위치: {__file__}\\n웹앱 루트: {webapp_root}\\nPython 경로: {sys.path[:3]}...")
     st.stop()
 
 # 페이지 설정
