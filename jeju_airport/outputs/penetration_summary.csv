@@ -1,0 +1,40 @@
+OLS 침투 분석 결과 요약
+분석 시간,2025-10-14 02:31:38
+
+전체 통계
+전체 장애물 수,150
+침투 장애물 수,80
+침투율 (%),53.3
+최대 침투량 (m),80.24
+평균 침투량 (m),29.71
+
+표면별 침투 현황
+표면,침투 개수,최대 침투량(m),평균 침투량(m)
+transitional_surface,80,80.24,29.71
+
+활주로별 침투 현황
+활주로,침투 개수,최대 침투량(m),평균 침투량(m)
+RKPC-31,80,80.24,29.71
+
+상위 침투 장애물 (상위 20개)
+순위,장애물 ID,활주로,침투량(m),장애물 표고(m),허용고도(m),제어 표면
+1,JEJU_OBS_141,RKPC-31,80.24,161.24,81.00,transitional_surface
+2,JEJU_OBS_129,RKPC-31,75.38,156.38,81.00,transitional_surface
+3,JEJU_OBS_103,RKPC-31,70.63,151.63,81.00,transitional_surface
+4,JEJU_OBS_095,RKPC-31,65.81,146.81,81.00,transitional_surface
+5,JEJU_OBS_147,RKPC-31,65.46,146.46,81.00,transitional_surface
+6,JEJU_OBS_126,RKPC-31,62.01,143.01,81.00,transitional_surface
+7,JEJU_OBS_134,RKPC-31,61.83,142.83,81.00,transitional_surface
+8,JEJU_OBS_119,RKPC-31,61.32,142.32,81.00,transitional_surface
+9,JEJU_OBS_075,RKPC-31,59.39,140.39,81.00,transitional_surface
+10,JEJU_OBS_138,RKPC-31,59.18,140.18,81.00,transitional_surface
+11,JEJU_OBS_133,RKPC-31,55.90,136.90,81.00,transitional_surface
+12,JEJU_OBS_003,RKPC-31,55.84,136.84,81.00,transitional_surface
+13,JEJU_OBS_099,RKPC-31,55.29,136.29,81.00,transitional_surface
+14,JEJU_OBS_053,RKPC-31,52.63,133.63,81.00,transitional_surface
+15,JEJU_OBS_137,RKPC-31,51.41,132.41,81.00,transitional_surface
+16,JEJU_OBS_146,RKPC-31,49.83,130.83,81.00,transitional_surface
+17,JEJU_OBS_097,RKPC-31,49.58,130.58,81.00,transitional_surface
+18,JEJU_OBS_132,RKPC-31,49.05,130.05,81.00,transitional_surface
+19,JEJU_OBS_071,RKPC-31,44.90,125.90,81.00,transitional_surface
+20,JEJU_OBS_080,RKPC-31,43.73,124.73,81.00,transitional_surface

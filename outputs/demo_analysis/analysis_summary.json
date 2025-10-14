@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "analysis_time": "2025-10-14T01:14:46.563375",
+    "config_hash": "b833a21460af9361",
+    "validation_errors_count": 0
+  },
+  "summary": {
+    "total_obstacles": 200,
+    "total_penetrations": 28,
+    "penetration_rate": 0.14,
+    "max_penetration_m": 47.90332900587423,
+    "avg_penetration_m": 13.471249266220562,
+    "by_surface": {
+      "transitional_surface": {
+        "count": 27,
+        "max_penetration_m": 47.90332900587423,
+        "avg_penetration_m": 13.803517757562064
+      },
+      "inner_horizontal_surface": {
+        "count": 1,
+        "max_penetration_m": 4.5,
+        "avg_penetration_m": 4.5
+      }
+    },
+    "by_runway": {
+      "RKSI-34L": {
+        "count": 11,
+        "max_penetration_m": 47.90332900587423,
+        "avg_penetration_m": 10.869634821538488
+      },
+      "RKSI-34R": {
+        "count": 17,
+        "max_penetration_m": 42.82424376381072,
+        "avg_penetration_m": 15.15464684807367
+      }
+    }
+  },
+  "validation_errors": []
+}

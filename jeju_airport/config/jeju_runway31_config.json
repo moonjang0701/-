@@ -1,0 +1,54 @@
+{
+  "runway_id": "RKPC_RWY31",
+  "airport_code": "RKPC",
+  "runway_name": "Runway 31",
+  "coordinates": {
+    "start_point": [
+      333019.74,
+      1263014.45
+    ],
+    "end_point": [
+      333068.26,
+      1262853.55
+    ],
+    "arp": [
+      333044.0,
+      1262934.0
+    ]
+  },
+  "runway_properties": {
+    "length": 168.06,
+    "bearing": 163.2,
+    "elevation": 36.0
+  },
+  "coordinate_system": "EPSG:5186",
+  "surfaces": {
+    "approach": {
+      "anchor_elevation": 36.0,
+      "axis_azimuth": 59.0,
+      "slope": 0.025,
+      "length": 15000.0,
+      "width": 300.0,
+      "divergence": 0.15
+    },
+    "takeoff": {
+      "anchor_elevation": 36.0,
+      "axis_azimuth": 241.0,
+      "slope": 0.02,
+      "length": 15000.0,
+      "width": 300.0,
+      "divergence": 0.125
+    },
+    "transitional": {
+      "anchor_elevation": 36.0,
+      "slope": 0.143
+    },
+    "inner_horizontal": {
+      "anchor_elevation": 36.0,
+      "width": 4000.0
+    },
+    "conical": {
+      "slope": 0.05
+    }
+  }
+}

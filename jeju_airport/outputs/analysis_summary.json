@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "analysis_time": "2025-10-14T02:31:38.825802",
+    "config_hash": "31a68079172e5540",
+    "validation_errors_count": 2
+  },
+  "summary": {
+    "total_obstacles": 150,
+    "total_penetrations": 80,
+    "penetration_rate": 0.5333333333333333,
+    "max_penetration_m": 80.23649449822136,
+    "avg_penetration_m": 29.70791224421464,
+    "by_surface": {
+      "transitional_surface": {
+        "count": 80,
+        "max_penetration_m": 80.23649449822136,
+        "avg_penetration_m": 29.70791224421464
+      }
+    },
+    "by_runway": {
+      "RKPC-31": {
+        "count": 80,
+        "max_penetration_m": 80.23649449822136,
+        "avg_penetration_m": 29.70791224421464
+      }
+    }
+  },
+  "validation_errors": [
+    "좌표 범위가 EPSG:5186 한국 영역을 벗어남: X(323226~341487), Y(1253328~1272703)",
+    "좌표 범위가 EPSG:5186 한국 영역을 벗어남: X(333020~333020), Y(1263014~1263014)"
+  ]
+}

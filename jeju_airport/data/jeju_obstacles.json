@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "JEJU_OBS_001",
+    "type": "Tree",
+    "x_coord": 333620.69,
+    "y_coord": 1267400.53,
+    "height_m": 41.6,
+    "ground_elevation_m": 15.253220115427363,
+    "description": "Test obstacle 1 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_002",
+    "type": "Antenna",
+    "x_coord": 327668.05,
+    "y_coord": 1262015.49,
+    "height_m": 80.9,
+    "ground_elevation_m": 33.149013587339894,
+    "description": "Test obstacle 2 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_003",
+    "type": "Antenna",
+    "x_coord": 332434.85,
+    "y_coord": 1268006.85,
+    "height_m": 108.2,
+    "ground_elevation_m": 28.639489428000388,
+    "description": "Test obstacle 3 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_004",
+    "type": "Tree",
+    "x_coord": 332827.59,
+    "y_coord": 1259486.62,
+    "height_m": 67.5,
+    "ground_elevation_m": 28.04112764663777,
+    "description": "Test obstacle 4 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_005",
+    "type": "Structure",
+    "x_coord": 326368.69,
+    "y_coord": 1256918.41,
+    "height_m": 24.9,
+    "ground_elevation_m": 20.634207237552722,
+    "description": "Test obstacle 5 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_006",
+    "type": "Building",
+    "x_coord": 333612.31,
+    "y_coord": 1264458.28,
+    "height_m": 40.4,
+    "ground_elevation_m": 43.985198600777245,
+    "description": "Test obstacle 6 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_007",
+    "type": "Tree",
+    "x_coord": 327910.74,
+    "y_coord": 1263735.09,
+    "height_m": 30.0,
+    "ground_elevation_m": 26.987766942033314,
+    "description": "Test obstacle 7 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_008",
+    "type": "Antenna",
+    "x_coord": 334350.3,
+    "y_coord": 1267005.71,
+    "height_m": 10.6,
+    "ground_elevation_m": 42.85830226422313,
+    "description": "Test obstacle 8 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_009",
+    "type": "Building",
+    "x_coord": 328652.34,
+    "y_coord": 1263803.58,
+    "height_m": 29.8,
+    "ground_elevation_m": 24.463597946835808,
+    "description": "Test obstacle 9 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_010",
+    "type": "Tree",
+    "x_coord": 329533.1,
+    "y_coord": 1261797.78,
+    "height_m": 29.7,
+    "ground_elevation_m": 13.617801150236447,
+    "description": "Test obstacle 10 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_011",
+    "type": "Antenna",
+    "x_coord": 335371.84,
+    "y_coord": 1263971.31,
+    "height_m": 62.7,
+    "ground_elevation_m": 27.332679315368775,
+    "description": "Test obstacle 11 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_012",
+    "type": "Tree",
+    "x_coord": 333910.19,
+    "y_coord": 1253479.55,
+    "height_m": 32.3,
+    "ground_elevation_m": 3.832167510670476,
+    "description": "Test obstacle 12 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_013",
+    "type": "Tree",
+    "x_coord": 335969.97,
+    "y_coord": 1265604.42,
+    "height_m": 27.0,
+    "ground_elevation_m": 17.634261557157714,
+    "description": "Test obstacle 13 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_014",
+    "type": "Building",
+    "x_coord": 332585.92,
+    "y_coord": 1259550.02,
+    "height_m": 44.8,
+    "ground_elevation_m": 32.886283061339164,
+    "description": "Test obstacle 14 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_015",
+    "type": "Tree",
+    "x_coord": 340232.89,
+    "y_coord": 1258747.3,
+    "height_m": 81.7,
+    "ground_elevation_m": 22.77094960115269,
+    "description": "Test obstacle 15 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_016",
+    "type": "Tower",
+    "x_coord": 332504.29,
+    "y_coord": 1272702.61,
+    "height_m": 81.3,
+    "ground_elevation_m": 11.089724539074625,
+    "description": "Test obstacle 16 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_017",
+    "type": "Structure",
+    "x_coord": 328333.59,
+    "y_coord": 1263286.78,
+    "height_m": 62.8,
+    "ground_elevation_m": 35.48347072399769,
+    "description": "Test obstacle 17 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_018",
+    "type": "Structure",
+    "x_coord": 331618.85,
+    "y_coord": 1264394.25,
+    "height_m": 55.3,
+    "ground_elevation_m": 10.54057247371724,
+    "description": "Test obstacle 18 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_019",
+    "type": "Tree",
+    "x_coord": 332515.8,
+    "y_coord": 1265473.38,
+    "height_m": 61.4,
+    "ground_elevation_m": 47.60891866562719,
+    "description": "Test obstacle 19 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_020",
+    "type": "Antenna",
+    "x_coord": 334145.93,
+    "y_coord": 1261628.68,
+    "height_m": 15.1,
+    "ground_elevation_m": 19.96375819753465,
+    "description": "Test obstacle 20 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_021",
+    "type": "Tower",
+    "x_coord": 328075.59,
+    "y_coord": 1260244.25,
+    "height_m": 51.3,
+    "ground_elevation_m": 11.07675141709612,
+    "description": "Test obstacle 21 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_022",
+    "type": "Structure",
+    "x_coord": 324497.58,
+    "y_coord": 1268086.21,
+    "height_m": 36.2,
+    "ground_elevation_m": 21.58204838794513,
+    "description": "Test obstacle 22 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_023",
+    "type": "Structure",
+    "x_coord": 335945.97,
+    "y_coord": 1257807.03,
+    "height_m": 49.0,
+    "ground_elevation_m": 28.95999669596476,
+    "description": "Test obstacle 23 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_024",
+    "type": "Tower",
+    "x_coord": 334738.69,
+    "y_coord": 1264028.65,
+    "height_m": 27.4,
+    "ground_elevation_m": 2.4517270263277213,
+    "description": "Test obstacle 24 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_025",
+    "type": "Antenna",
+    "x_coord": 338203.54,
+    "y_coord": 1265340.24,
+    "height_m": 27.0,
+    "ground_elevation_m": 7.738198681027092,
+    "description": "Test obstacle 25 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_026",
+    "type": "Tower",
+    "x_coord": 335038.07,
+    "y_coord": 1262430.88,
+    "height_m": 67.2,
+    "ground_elevation_m": 4.88984832862211,
+    "description": "Test obstacle 26 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_027",
+    "type": "Structure",
+    "x_coord": 330981.46,
+    "y_coord": 1271664.34,
+    "height_m": 20.3,
+    "ground_elevation_m": 45.30848014771056,
+    "description": "Test obstacle 27 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_028",
+    "type": "Tower",
+    "x_coord": 331672.49,
+    "y_coord": 1262275.38,
+    "height_m": 12.6,
+    "ground_elevation_m": 11.508428778088236,
+    "description": "Test obstacle 28 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_029",
+    "type": "Tree",
+    "x_coord": 339834.45,
+    "y_coord": 1269921.34,
+    "height_m": 70.0,
+    "ground_elevation_m": 47.383367954676295,
+    "description": "Test obstacle 29 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_030",
+    "type": "Tree",
+    "x_coord": 329602.56,
+    "y_coord": 1265279.07,
+    "height_m": 10.7,
+    "ground_elevation_m": 0.13991031645788632,
+    "description": "Test obstacle 30 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_031",
+    "type": "Building",
+    "x_coord": 333419.75,
+    "y_coord": 1267986.08,
+    "height_m": 17.6,
+    "ground_elevation_m": 12.050744350116476,
+    "description": "Test obstacle 31 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_032",
+    "type": "Building",
+    "x_coord": 329791.05,
+    "y_coord": 1259104.09,
+    "height_m": 50.7,
+    "ground_elevation_m": 34.22407716061638,
+    "description": "Test obstacle 32 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_033",
+    "type": "Structure",
+    "x_coord": 333357.89,
+    "y_coord": 1266626.32,
+    "height_m": 27.6,
+    "ground_elevation_m": 3.832127751138864,
+    "description": "Test obstacle 33 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_034",
+    "type": "Building",
+    "x_coord": 326989.69,
+    "y_coord": 1264381.77,
+    "height_m": 24.5,
+    "ground_elevation_m": 18.77147384392972,
+    "description": "Test obstacle 34 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_035",
+    "type": "Building",
+    "x_coord": 338151.97,
+    "y_coord": 1254971.06,
+    "height_m": 105.4,
+    "ground_elevation_m": 12.485505264193913,
+    "description": "Test obstacle 35 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_036",
+    "type": "Tree",
+    "x_coord": 335656.96,
+    "y_coord": 1261933.02,
+    "height_m": 57.8,
+    "ground_elevation_m": 41.35138913744045,
+    "description": "Test obstacle 36 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_037",
+    "type": "Tower",
+    "x_coord": 335596.31,
+    "y_coord": 1271324.94,
+    "height_m": 43.3,
+    "ground_elevation_m": 47.659811038251895,
+    "description": "Test obstacle 37 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_038",
+    "type": "Antenna",
+    "x_coord": 329933.27,
+    "y_coord": 1260114.46,
+    "height_m": 20.5,
+    "ground_elevation_m": 49.842281473219536,
+    "description": "Test obstacle 38 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_039",
+    "type": "Antenna",
+    "x_coord": 336098.09,
+    "y_coord": 1259078.49,
+    "height_m": 37.6,
+    "ground_elevation_m": 32.19190375456806,
+    "description": "Test obstacle 39 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_040",
+    "type": "Tower",
+    "x_coord": 332143.27,
+    "y_coord": 1262069.12,
+    "height_m": 27.9,
+    "ground_elevation_m": 33.5202271373401,
+    "description": "Test obstacle 40 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_041",
+    "type": "Building",
+    "x_coord": 325691.25,
+    "y_coord": 1259954.1,
+    "height_m": 40.6,
+    "ground_elevation_m": 10.314814347379386,
+    "description": "Test obstacle 41 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_042",
+    "type": "Tower",
+    "x_coord": 336425.76,
+    "y_coord": 1256413.84,
+    "height_m": 89.2,
+    "ground_elevation_m": 32.94404090703183,
+    "description": "Test obstacle 42 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_043",
+    "type": "Tower",
+    "x_coord": 331297.17,
+    "y_coord": 1262050.14,
+    "height_m": 6.4,
+    "ground_elevation_m": 25.26698748156353,
+    "description": "Test obstacle 43 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_044",
+    "type": "Building",
+    "x_coord": 332081.9,
+    "y_coord": 1261924.3,
+    "height_m": 5.4,
+    "ground_elevation_m": 20.43722993288803,
+    "description": "Test obstacle 44 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_045",
+    "type": "Structure",
+    "x_coord": 328233.21,
+    "y_coord": 1266464.3,
+    "height_m": 22.7,
+    "ground_elevation_m": 9.588695328195445,
+    "description": "Test obstacle 45 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_046",
+    "type": "Antenna",
+    "x_coord": 332467.85,
+    "y_coord": 1260235.66,
+    "height_m": 38.9,
+    "ground_elevation_m": 8.22630897378091,
+    "description": "Test obstacle 46 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_047",
+    "type": "Tree",
+    "x_coord": 336635.53,
+    "y_coord": 1265676.52,
+    "height_m": 27.0,
+    "ground_elevation_m": 3.704682541569504,
+    "description": "Test obstacle 47 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_048",
+    "type": "Tree",
+    "x_coord": 338770.73,
+    "y_coord": 1264509.75,
+    "height_m": 86.2,
+    "ground_elevation_m": 36.452683248242,
+    "description": "Test obstacle 48 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_049",
+    "type": "Tower",
+    "x_coord": 325072.53,
+    "y_coord": 1257638.19,
+    "height_m": 52.3,
+    "ground_elevation_m": 21.701720679851018,
+    "description": "Test obstacle 49 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_050",
+    "type": "Antenna",
+    "x_coord": 333743.99,
+    "y_coord": 1263950.02,
+    "height_m": 49.3,
+    "ground_elevation_m": 23.608556979315416,
+    "description": "Test obstacle 50 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_051",
+    "type": "Building",
+    "x_coord": 338198.69,
+    "y_coord": 1256535.68,
+    "height_m": 33.4,
+    "ground_elevation_m": 20.215813700379737,
+    "description": "Test obstacle 51 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_052",
+    "type": "Structure",
+    "x_coord": 331654.79,
+    "y_coord": 1263206.78,
+    "height_m": 37.2,
+    "ground_elevation_m": 29.97238648061378,
+    "description": "Test obstacle 52 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_053",
+    "type": "Antenna",
+    "x_coord": 337527.88,
+    "y_coord": 1266788.0,
+    "height_m": 98.9,
+    "ground_elevation_m": 34.734328630232724,
+    "description": "Test obstacle 53 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_054",
+    "type": "Building",
+    "x_coord": 327014.75,
+    "y_coord": 1257725.99,
+    "height_m": 99.1,
+    "ground_elevation_m": 23.865214049116318,
+    "description": "Test obstacle 54 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_055",
+    "type": "Antenna",
+    "x_coord": 333700.38,
+    "y_coord": 1265789.86,
+    "height_m": 70.5,
+    "ground_elevation_m": 26.573058780518416,
+    "description": "Test obstacle 55 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_056",
+    "type": "Antenna",
+    "x_coord": 323226.15,
+    "y_coord": 1261878.73,
+    "height_m": 24.8,
+    "ground_elevation_m": 28.013747297622928,
+    "description": "Test obstacle 56 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_057",
+    "type": "Tower",
+    "x_coord": 336275.04,
+    "y_coord": 1265227.21,
+    "height_m": 23.8,
+    "ground_elevation_m": 33.060379624962074,
+    "description": "Test obstacle 57 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_058",
+    "type": "Tower",
+    "x_coord": 333388.22,
+    "y_coord": 1263888.7,
+    "height_m": 19.8,
+    "ground_elevation_m": 49.30387999729559,
+    "description": "Test obstacle 58 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_059",
+    "type": "Tower",
+    "x_coord": 324831.1,
+    "y_coord": 1265768.95,
+    "height_m": 53.2,
+    "ground_elevation_m": 49.3701989133494,
+    "description": "Test obstacle 59 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_060",
+    "type": "Antenna",
+    "x_coord": 334896.14,
+    "y_coord": 1263448.56,
+    "height_m": 49.6,
+    "ground_elevation_m": 18.974952388785265,
+    "description": "Test obstacle 60 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_061",
+    "type": "Tree",
+    "x_coord": 329939.14,
+    "y_coord": 1262655.29,
+    "height_m": 27.7,
+    "ground_elevation_m": 33.47106224017726,
+    "description": "Test obstacle 61 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_062",
+    "type": "Building",
+    "x_coord": 334233.68,
+    "y_coord": 1261922.58,
+    "height_m": 42.5,
+    "ground_elevation_m": 44.94473031023949,
+    "description": "Test obstacle 62 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_063",
+    "type": "Tree",
+    "x_coord": 326334.16,
+    "y_coord": 1258081.14,
+    "height_m": 91.3,
+    "ground_elevation_m": 26.104152904257916,
+    "description": "Test obstacle 63 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_064",
+    "type": "Tower",
+    "x_coord": 330454.03,
+    "y_coord": 1254548.4,
+    "height_m": 65.9,
+    "ground_elevation_m": 43.08932235297682,
+    "description": "Test obstacle 64 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_065",
+    "type": "Tree",
+    "x_coord": 335253.51,
+    "y_coord": 1265471.62,
+    "height_m": 36.5,
+    "ground_elevation_m": 30.298237066698995,
+    "description": "Test obstacle 65 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_066",
+    "type": "Tree",
+    "x_coord": 339670.64,
+    "y_coord": 1256631.53,
+    "height_m": 44.6,
+    "ground_elevation_m": 21.97514070581673,
+    "description": "Test obstacle 66 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_067",
+    "type": "Building",
+    "x_coord": 330196.76,
+    "y_coord": 1266134.58,
+    "height_m": 43.8,
+    "ground_elevation_m": 16.7657111379717,
+    "description": "Test obstacle 67 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_068",
+    "type": "Tree",
+    "x_coord": 329434.38,
+    "y_coord": 1265963.55,
+    "height_m": 24.4,
+    "ground_elevation_m": 43.29745951583526,
+    "description": "Test obstacle 68 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_069",
+    "type": "Building",
+    "x_coord": 330716.66,
+    "y_coord": 1263941.56,
+    "height_m": 63.1,
+    "ground_elevation_m": 31.57824506344003,
+    "description": "Test obstacle 69 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_070",
+    "type": "Structure",
+    "x_coord": 328396.6,
+    "y_coord": 1258563.3,
+    "height_m": 30.7,
+    "ground_elevation_m": 47.634506132511945,
+    "description": "Test obstacle 70 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_071",
+    "type": "Tower",
+    "x_coord": 330434.97,
+    "y_coord": 1268466.76,
+    "height_m": 80.1,
+    "ground_elevation_m": 45.804445021280785,
+    "description": "Test obstacle 71 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_072",
+    "type": "Structure",
+    "x_coord": 329480.96,
+    "y_coord": 1258576.9,
+    "height_m": 31.9,
+    "ground_elevation_m": 17.695551184533187,
+    "description": "Test obstacle 72 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_073",
+    "type": "Building",
+    "x_coord": 334353.37,
+    "y_coord": 1267027.09,
+    "height_m": 38.4,
+    "ground_elevation_m": 23.590063737742913,
+    "description": "Test obstacle 73 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_074",
+    "type": "Tower",
+    "x_coord": 323352.11,
+    "y_coord": 1263528.89,
+    "height_m": 44.2,
+    "ground_elevation_m": 48.84703049358694,
+    "description": "Test obstacle 74 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_075",
+    "type": "Tower",
+    "x_coord": 329836.35,
+    "y_coord": 1258625.5,
+    "height_m": 115.3,
+    "ground_elevation_m": 25.087192981752832,
+    "description": "Test obstacle 75 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_076",
+    "type": "Tree",
+    "x_coord": 340679.26,
+    "y_coord": 1259637.1,
+    "height_m": 69.7,
+    "ground_elevation_m": 17.94996512684116,
+    "description": "Test obstacle 76 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_077",
+    "type": "Tower",
+    "x_coord": 327784.36,
+    "y_coord": 1264384.35,
+    "height_m": 23.3,
+    "ground_elevation_m": 9.948519937126449,
+    "description": "Test obstacle 77 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_078",
+    "type": "Antenna",
+    "x_coord": 328277.43,
+    "y_coord": 1256019.96,
+    "height_m": 69.8,
+    "ground_elevation_m": 49.684453568534295,
+    "description": "Test obstacle 78 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_079",
+    "type": "Tree",
+    "x_coord": 334882.82,
+    "y_coord": 1255991.21,
+    "height_m": 18.5,
+    "ground_elevation_m": 15.867018870376432,
+    "description": "Test obstacle 79 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_080",
+    "type": "Structure",
+    "x_coord": 336401.93,
+    "y_coord": 1269223.39,
+    "height_m": 118.7,
+    "ground_elevation_m": 6.026347115273156,
+    "description": "Test obstacle 80 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_081",
+    "type": "Tree",
+    "x_coord": 331100.14,
+    "y_coord": 1270511.29,
+    "height_m": 27.3,
+    "ground_elevation_m": 29.773090636862953,
+    "description": "Test obstacle 81 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_082",
+    "type": "Structure",
+    "x_coord": 333399.06,
+    "y_coord": 1262411.46,
+    "height_m": 15.9,
+    "ground_elevation_m": 12.981683977036184,
+    "description": "Test obstacle 82 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_083",
+    "type": "Tree",
+    "x_coord": 331628.02,
+    "y_coord": 1266931.28,
+    "height_m": 71.5,
+    "ground_elevation_m": 29.488715556607143,
+    "description": "Test obstacle 83 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_084",
+    "type": "Structure",
+    "x_coord": 333301.66,
+    "y_coord": 1257343.67,
+    "height_m": 53.6,
+    "ground_elevation_m": 42.51774029768862,
+    "description": "Test obstacle 84 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_085",
+    "type": "Antenna",
+    "x_coord": 332918.35,
+    "y_coord": 1263507.49,
+    "height_m": 37.5,
+    "ground_elevation_m": 49.565572406218855,
+    "description": "Test obstacle 85 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_086",
+    "type": "Structure",
+    "x_coord": 326931.76,
+    "y_coord": 1266209.65,
+    "height_m": 21.0,
+    "ground_elevation_m": 1.6601010030689145,
+    "description": "Test obstacle 86 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_087",
+    "type": "Tower",
+    "x_coord": 325978.1,
+    "y_coord": 1260917.19,
+    "height_m": 83.0,
+    "ground_elevation_m": 31.6106974702693,
+    "description": "Test obstacle 87 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_088",
+    "type": "Building",
+    "x_coord": 338291.73,
+    "y_coord": 1255565.71,
+    "height_m": 28.7,
+    "ground_elevation_m": 4.13926077385296,
+    "description": "Test obstacle 88 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_089",
+    "type": "Structure",
+    "x_coord": 338923.37,
+    "y_coord": 1267373.33,
+    "height_m": 67.8,
+    "ground_elevation_m": 36.72734777080099,
+    "description": "Test obstacle 89 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_090",
+    "type": "Building",
+    "x_coord": 333634.15,
+    "y_coord": 1266869.93,
+    "height_m": 77.0,
+    "ground_elevation_m": 40.55599567867327,
+    "description": "Test obstacle 90 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_091",
+    "type": "Tower",
+    "x_coord": 330618.79,
+    "y_coord": 1263465.76,
+    "height_m": 31.1,
+    "ground_elevation_m": 4.78198352763558,
+    "description": "Test obstacle 91 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_092",
+    "type": "Building",
+    "x_coord": 338870.63,
+    "y_coord": 1264560.76,
+    "height_m": 59.4,
+    "ground_elevation_m": 29.387483207753018,
+    "description": "Test obstacle 92 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_093",
+    "type": "Antenna",
+    "x_coord": 339271.88,
+    "y_coord": 1267178.7,
+    "height_m": 71.7,
+    "ground_elevation_m": 10.059069026619122,
+    "description": "Test obstacle 93 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_094",
+    "type": "Building",
+    "x_coord": 334782.51,
+    "y_coord": 1257730.31,
+    "height_m": 27.1,
+    "ground_elevation_m": 2.0608601806813676,
+    "description": "Test obstacle 94 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_095",
+    "type": "Tower",
+    "x_coord": 339643.83,
+    "y_coord": 1265867.1,
+    "height_m": 102.7,
+    "ground_elevation_m": 44.112371745824554,
+    "description": "Test obstacle 95 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_096",
+    "type": "Structure",
+    "x_coord": 332093.2,
+    "y_coord": 1263025.22,
+    "height_m": 14.4,
+    "ground_elevation_m": 12.92868511399049,
+    "description": "Test obstacle 96 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_097",
+    "type": "Tower",
+    "x_coord": 341189.94,
+    "y_coord": 1265310.44,
+    "height_m": 92.5,
+    "ground_elevation_m": 38.07735796674029,
+    "description": "Test obstacle 97 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_098",
+    "type": "Antenna",
+    "x_coord": 325257.41,
+    "y_coord": 1263149.35,
+    "height_m": 100.6,
+    "ground_elevation_m": 12.197408765939798,
+    "description": "Test obstacle 98 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_099",
+    "type": "Structure",
+    "x_coord": 327893.15,
+    "y_coord": 1260286.26,
+    "height_m": 105.4,
+    "ground_elevation_m": 30.893867575038712,
+    "description": "Test obstacle 99 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_100",
+    "type": "Antenna",
+    "x_coord": 333749.82,
+    "y_coord": 1263168.21,
+    "height_m": 5.7,
+    "ground_elevation_m": 24.637942150509517,
+    "description": "Test obstacle 100 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_101",
+    "type": "Structure",
+    "x_coord": 333389.25,
+    "y_coord": 1256780.16,
+    "height_m": 76.2,
+    "ground_elevation_m": 26.99116143011413,
+    "description": "Test obstacle 101 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_102",
+    "type": "Building",
+    "x_coord": 329789.97,
+    "y_coord": 1254691.35,
+    "height_m": 61.8,
+    "ground_elevation_m": 45.65423589974875,
+    "description": "Test obstacle 102 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_103",
+    "type": "Structure",
+    "x_coord": 341334.86,
+    "y_coord": 1261683.55,
+    "height_m": 104.4,
+    "ground_elevation_m": 47.23492318175209,
+    "description": "Test obstacle 103 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_104",
+    "type": "Structure",
+    "x_coord": 330394.07,
+    "y_coord": 1264843.9,
+    "height_m": 74.7,
+    "ground_elevation_m": 11.78488205454612,
+    "description": "Test obstacle 104 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_105",
+    "type": "Structure",
+    "x_coord": 331210.68,
+    "y_coord": 1263993.04,
+    "height_m": 54.1,
+    "ground_elevation_m": 39.31854319099636,
+    "description": "Test obstacle 105 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_106",
+    "type": "Building",
+    "x_coord": 324752.11,
+    "y_coord": 1260753.15,
+    "height_m": 92.4,
+    "ground_elevation_m": 3.1194473397824773,
+    "description": "Test obstacle 106 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_107",
+    "type": "Antenna",
+    "x_coord": 337416.12,
+    "y_coord": 1258193.12,
+    "height_m": 72.0,
+    "ground_elevation_m": 34.14539017250371,
+    "description": "Test obstacle 107 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_108",
+    "type": "Tower",
+    "x_coord": 339831.01,
+    "y_coord": 1269428.31,
+    "height_m": 70.5,
+    "ground_elevation_m": 28.115513961664146,
+    "description": "Test obstacle 108 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_109",
+    "type": "Tower",
+    "x_coord": 333612.45,
+    "y_coord": 1262214.53,
+    "height_m": 10.1,
+    "ground_elevation_m": 46.05013895378157,
+    "description": "Test obstacle 109 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_110",
+    "type": "Tree",
+    "x_coord": 334626.2,
+    "y_coord": 1264781.34,
+    "height_m": 18.6,
+    "ground_elevation_m": 44.392932474752314,
+    "description": "Test obstacle 110 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_111",
+    "type": "Structure",
+    "x_coord": 335390.35,
+    "y_coord": 1259524.74,
+    "height_m": 21.3,
+    "ground_elevation_m": 9.263804510630159,
+    "description": "Test obstacle 111 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_112",
+    "type": "Antenna",
+    "x_coord": 333413.88,
+    "y_coord": 1262463.07,
+    "height_m": 11.2,
+    "ground_elevation_m": 7.401294694115268,
+    "description": "Test obstacle 112 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_113",
+    "type": "Building",
+    "x_coord": 331220.75,
+    "y_coord": 1262608.76,
+    "height_m": 32.6,
+    "ground_elevation_m": 13.164722706079901,
+    "description": "Test obstacle 113 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_114",
+    "type": "Tree",
+    "x_coord": 337321.7,
+    "y_coord": 1259306.56,
+    "height_m": 67.3,
+    "ground_elevation_m": 16.991052471714855,
+    "description": "Test obstacle 114 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_115",
+    "type": "Building",
+    "x_coord": 329576.47,
+    "y_coord": 1261928.74,
+    "height_m": 45.6,
+    "ground_elevation_m": 9.257437376136956,
+    "description": "Test obstacle 115 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_116",
+    "type": "Tree",
+    "x_coord": 325683.42,
+    "y_coord": 1266032.3,
+    "height_m": 64.7,
+    "ground_elevation_m": 42.4623362602304,
+    "description": "Test obstacle 116 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_117",
+    "type": "Tree",
+    "x_coord": 336838.25,
+    "y_coord": 1266280.7,
+    "height_m": 105.5,
+    "ground_elevation_m": 9.54778752645195,
+    "description": "Test obstacle 117 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_118",
+    "type": "Building",
+    "x_coord": 332354.71,
+    "y_coord": 1263371.86,
+    "height_m": 16.8,
+    "ground_elevation_m": 11.559472201689225,
+    "description": "Test obstacle 118 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_119",
+    "type": "Tree",
+    "x_coord": 338290.06,
+    "y_coord": 1258194.59,
+    "height_m": 114.7,
+    "ground_elevation_m": 27.622854945133078,
+    "description": "Test obstacle 119 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_120",
+    "type": "Tower",
+    "x_coord": 335295.65,
+    "y_coord": 1255558.02,
+    "height_m": 30.2,
+    "ground_elevation_m": 49.03228909424344,
+    "description": "Test obstacle 120 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_121",
+    "type": "Structure",
+    "x_coord": 330569.14,
+    "y_coord": 1272585.68,
+    "height_m": 97.9,
+    "ground_elevation_m": 13.634694124133706,
+    "description": "Test obstacle 121 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_122",
+    "type": "Tree",
+    "x_coord": 331193.92,
+    "y_coord": 1253328.45,
+    "height_m": 38.6,
+    "ground_elevation_m": 21.100857751383494,
+    "description": "Test obstacle 122 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_123",
+    "type": "Tower",
+    "x_coord": 334838.19,
+    "y_coord": 1264408.39,
+    "height_m": 34.0,
+    "ground_elevation_m": 17.847046454895928,
+    "description": "Test obstacle 123 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_124",
+    "type": "Building",
+    "x_coord": 336560.08,
+    "y_coord": 1261995.6,
+    "height_m": 76.3,
+    "ground_elevation_m": 32.074475700664586,
+    "description": "Test obstacle 124 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_125",
+    "type": "Building",
+    "x_coord": 326945.88,
+    "y_coord": 1263490.9,
+    "height_m": 68.9,
+    "ground_elevation_m": 28.296539018672608,
+    "description": "Test obstacle 125 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_126",
+    "type": "Building",
+    "x_coord": 338975.16,
+    "y_coord": 1260386.0,
+    "height_m": 99.6,
+    "ground_elevation_m": 43.40893975554106,
+    "description": "Test obstacle 126 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_127",
+    "type": "Structure",
+    "x_coord": 333966.58,
+    "y_coord": 1263451.02,
+    "height_m": 44.9,
+    "ground_elevation_m": 4.928918731585519,
+    "description": "Test obstacle 127 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_128",
+    "type": "Building",
+    "x_coord": 332679.08,
+    "y_coord": 1263459.36,
+    "height_m": 34.8,
+    "ground_elevation_m": 9.176271493398763,
+    "description": "Test obstacle 128 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_129",
+    "type": "Structure",
+    "x_coord": 341487.35,
+    "y_coord": 1260923.89,
+    "height_m": 108.8,
+    "ground_elevation_m": 47.577384409193364,
+    "description": "Test obstacle 129 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_130",
+    "type": "Structure",
+    "x_coord": 338274.42,
+    "y_coord": 1254760.91,
+    "height_m": 39.8,
+    "ground_elevation_m": 21.757397353824544,
+    "description": "Test obstacle 130 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_131",
+    "type": "Structure",
+    "x_coord": 337025.52,
+    "y_coord": 1269789.89,
+    "height_m": 93.5,
+    "ground_elevation_m": 15.92156960599812,
+    "description": "Test obstacle 131 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_132",
+    "type": "Building",
+    "x_coord": 339149.38,
+    "y_coord": 1260666.88,
+    "height_m": 82.3,
+    "ground_elevation_m": 47.74615772802758,
+    "description": "Test obstacle 132 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_133",
+    "type": "Antenna",
+    "x_coord": 335514.81,
+    "y_coord": 1255077.2,
+    "height_m": 94.2,
+    "ground_elevation_m": 42.69682955351284,
+    "description": "Test obstacle 133 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_134",
+    "type": "Tower",
+    "x_coord": 326455.15,
+    "y_coord": 1268112.84,
+    "height_m": 93.8,
+    "ground_elevation_m": 49.03361850549513,
+    "description": "Test obstacle 134 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_135",
+    "type": "Tower",
+    "x_coord": 328133.36,
+    "y_coord": 1255681.96,
+    "height_m": 66.5,
+    "ground_elevation_m": 24.297281504130968,
+    "description": "Test obstacle 135 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_136",
+    "type": "Building",
+    "x_coord": 335687.14,
+    "y_coord": 1258068.19,
+    "height_m": 44.4,
+    "ground_elevation_m": 38.089555634532914,
+    "description": "Test obstacle 136 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_137",
+    "type": "Tree",
+    "x_coord": 329112.04,
+    "y_coord": 1269331.09,
+    "height_m": 82.7,
+    "ground_elevation_m": 49.7149545119857,
+    "description": "Test obstacle 137 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_138",
+    "type": "Tower",
+    "x_coord": 331810.0,
+    "y_coord": 1255151.78,
+    "height_m": 113.8,
+    "ground_elevation_m": 26.381216188520135,
+    "description": "Test obstacle 138 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_139",
+    "type": "Building",
+    "x_coord": 330373.23,
+    "y_coord": 1268561.2,
+    "height_m": 93.2,
+    "ground_elevation_m": 1.901144513551023,
+    "description": "Test obstacle 139 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_140",
+    "type": "Building",
+    "x_coord": 334247.83,
+    "y_coord": 1261249.64,
+    "height_m": 13.9,
+    "ground_elevation_m": 28.842264621001185,
+    "description": "Test obstacle 140 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_141",
+    "type": "Building",
+    "x_coord": 332319.5,
+    "y_coord": 1267891.11,
+    "height_m": 112.4,
+    "ground_elevation_m": 48.83649449822134,
+    "description": "Test obstacle 141 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_142",
+    "type": "Antenna",
+    "x_coord": 337975.49,
+    "y_coord": 1259250.83,
+    "height_m": 56.8,
+    "ground_elevation_m": 34.73086534892481,
+    "description": "Test obstacle 142 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_143",
+    "type": "Structure",
+    "x_coord": 330076.44,
+    "y_coord": 1263456.07,
+    "height_m": 58.6,
+    "ground_elevation_m": 17.915072513080542,
+    "description": "Test obstacle 143 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_144",
+    "type": "Antenna",
+    "x_coord": 338024.87,
+    "y_coord": 1263615.59,
+    "height_m": 58.9,
+    "ground_elevation_m": 45.24480316479369,
+    "description": "Test obstacle 144 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_145",
+    "type": "Tower",
+    "x_coord": 329299.05,
+    "y_coord": 1260350.87,
+    "height_m": 30.5,
+    "ground_elevation_m": 48.84004000174914,
+    "description": "Test obstacle 145 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_146",
+    "type": "Building",
+    "x_coord": 329373.29,
+    "y_coord": 1257920.83,
+    "height_m": 91.5,
+    "ground_elevation_m": 39.33374860021041,
+    "description": "Test obstacle 146 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_147",
+    "type": "Structure",
+    "x_coord": 332491.07,
+    "y_coord": 1272417.1,
+    "height_m": 108.4,
+    "ground_elevation_m": 38.0586742298535,
+    "description": "Test obstacle 147 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_148",
+    "type": "Tree",
+    "x_coord": 328924.59,
+    "y_coord": 1261000.89,
+    "height_m": 25.0,
+    "ground_elevation_m": 33.587355720419424,
+    "description": "Test obstacle 148 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_149",
+    "type": "Structure",
+    "x_coord": 334926.45,
+    "y_coord": 1260818.46,
+    "height_m": 23.1,
+    "ground_elevation_m": 48.511047121631464,
+    "description": "Test obstacle 149 for Jeju Airport"
+  },
+  {
+    "id": "JEJU_OBS_150",
+    "type": "Antenna",
+    "x_coord": 329969.48,
+    "y_coord": 1257019.16,
+    "height_m": 54.7,
+    "ground_elevation_m": 42.01799552445716,
+    "description": "Test obstacle 150 for Jeju Airport"
+  }
+]

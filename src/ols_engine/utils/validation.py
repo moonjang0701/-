@@ -253,10 +253,11 @@ class ConfigValidator:
             thr_x = runway.get('thr_x', 0)
             thr_y = runway.get('thr_y', 0)
             
-            if not (100000 <= thr_x <= 300000):
+            # Extended validation for South Korea including Jeju Island  
+            if not (100000 <= thr_x <= 400000):
                 errors.append(f"활주로 {rwy_id}: THR X 좌표가 한국 영역을 벗어남 ({thr_x})")
             
-            if not (400000 <= thr_y <= 600000):
+            if not (400000 <= thr_y <= 1300000):
                 errors.append(f"활주로 {rwy_id}: THR Y 좌표가 한국 영역을 벗어남 ({thr_y})")
             
             # Annex 14 파라미터 일관성 검증

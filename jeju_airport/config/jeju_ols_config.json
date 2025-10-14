@@ -1,0 +1,43 @@
+{
+  "crs_epsg": 5186,
+  "geoid": "KGEOID2020",
+  "arp_elev_m": 36.0,
+  "generate_validation_grid": true,
+  "validation_grid_spacing_m": 200,
+  "validation_grid_extent_m": 8000,
+  "runways": [
+    {
+      "rwy_id": "RKPC-31",
+      "thr_x": 333019.74,
+      "thr_y": 1263014.45,
+      "thr_elev_m": 36.0,
+      "bearing_deg": 310.0,
+      "annex14": {
+        "approach": {
+          "slope": 0.025,
+          "inner_width_m": 300.0,
+          "divergence": 0.15,
+          "length_m": 15000.0
+        },
+        "takeoff": {
+          "slope": 0.02,
+          "inner_width_m": 300.0,
+          "divergence": 0.125,
+          "length_m": 15000.0
+        },
+        "transitional": {
+          "slope": 0.143,
+          "height_cap_m": 45.0
+        },
+        "inner_horizontal": {
+          "radius_m": 4000.0,
+          "height_m": 45.0
+        },
+        "conical": {
+          "slope": 0.05,
+          "height_m": 55.0
+        }
+      }
+    }
+  ]
+}
