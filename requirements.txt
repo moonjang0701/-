@@ -1,0 +1,32 @@
+# OLS 침투 판정 엔진 의존성
+
+# 지리공간 데이터 처리
+geopandas>=0.14.0
+shapely>=2.0.0
+fiona>=1.9.0
+pyproj>=3.6.0
+
+# 수치 연산
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# 시각화
+matplotlib>=3.7.0
+seaborn>=0.12.0
+folium>=0.14.0
+
+# 파일 I/O
+h5py>=3.9.0
+json-schema>=4.17.0
+
+# 로깅 및 유틸리티
+loguru>=0.7.0
+tqdm>=4.65.0
+
+# 테스트
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# GIS 라이브러리 (시스템 레벨)
+# GDAL, PROJ, GEOS는 시스템에서 별도 설치 필요

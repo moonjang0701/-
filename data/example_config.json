@@ -1,0 +1,76 @@
+{
+  "crs_epsg": 5186,
+  "geoid": "KGEOID2020",
+  "arp_elev_m": 7.5,
+  "generate_validation_grid": true,
+  "validation_grid_spacing_m": 200,
+  "validation_grid_extent_m": 5000,
+  "runways": [
+    {
+      "rwy_id": "RKSI-34L",
+      "thr_x": 198345.12,
+      "thr_y": 531234.88,
+      "thr_elev_m": 7.3,
+      "bearing_deg": 340.1,
+      "annex14": {
+        "approach": {
+          "slope": 0.025,
+          "inner_width_m": 300,
+          "divergence": 0.10,
+          "length_m": 15000
+        },
+        "takeoff": {
+          "slope": 0.02,
+          "inner_width_m": 180,
+          "divergence": 0.10,
+          "length_m": 15000
+        },
+        "transitional": {
+          "slope": 0.143,
+          "height_cap_m": 45
+        },
+        "inner_horizontal": {
+          "radius_m": 4000,
+          "height_m": 45
+        },
+        "conical": {
+          "slope": 0.05,
+          "height_m": 100
+        }
+      }
+    },
+    {
+      "rwy_id": "RKSI-34R",
+      "thr_x": 198445.22,
+      "thr_y": 531534.99,
+      "thr_elev_m": 7.8,
+      "bearing_deg": 340.1,
+      "annex14": {
+        "approach": {
+          "slope": 0.025,
+          "inner_width_m": 300,
+          "divergence": 0.10,
+          "length_m": 15000
+        },
+        "takeoff": {
+          "slope": 0.02,
+          "inner_width_m": 180,
+          "divergence": 0.10,
+          "length_m": 15000
+        },
+        "transitional": {
+          "slope": 0.143,
+          "height_cap_m": 45
+        },
+        "inner_horizontal": {
+          "radius_m": 4000,
+          "height_m": 45
+        },
+        "conical": {
+          "slope": 0.05,
+          "height_m": 100
+        }
+      }
+    }
+  ]
+}

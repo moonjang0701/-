@@ -1,0 +1,42 @@
+OLS 침투 분석 결과 요약
+분석 시간,2025-10-14 00:47:19
+
+전체 통계
+전체 장애물 수,200
+침투 장애물 수,28
+침투율 (%),14.0
+최대 침투량 (m),47.90
+평균 침투량 (m),13.47
+
+표면별 침투 현황
+표면,침투 개수,최대 침투량(m),평균 침투량(m)
+transitional_surface,27,47.90,13.80
+inner_horizontal_surface,1,4.50,4.50
+
+활주로별 침투 현황
+활주로,침투 개수,최대 침투량(m),평균 침투량(m)
+RKSI-34L,11,47.90,10.87
+RKSI-34R,17,42.82,15.15
+
+상위 침투 장애물 (상위 20개)
+순위,장애물 ID,활주로,침투량(m),장애물 표고(m),허용고도(m),제어 표면
+1,OBS_089,RKSI-34L,47.90,55.64,7.74,transitional_surface
+2,OBS_056,RKSI-34R,42.82,55.25,12.43,transitional_surface
+3,OBS_063,RKSI-34R,36.73,53.64,16.91,transitional_surface
+4,OBS_062,RKSI-34R,25.84,36.17,10.33,transitional_surface
+5,OBS_010,RKSI-34R,25.41,34.11,8.70,transitional_surface
+6,OBS_004,RKSI-34R,21.54,46.02,24.48,transitional_surface
+7,OBS_001,RKSI-34L,21.48,33.78,12.30,transitional_surface
+8,OBS_077,RKSI-34R,17.78,37.05,19.27,transitional_surface
+9,OBS_048,RKSI-34R,17.73,35.93,18.20,transitional_surface
+10,OBS_009,RKSI-34R,16.90,38.58,21.68,transitional_surface
+11,OBS_063,RKSI-34L,16.65,53.64,36.99,transitional_surface
+12,OBS_068,RKSI-34R,15.06,36.30,21.24,transitional_surface
+13,OBS_056,RKSI-34L,13.79,55.25,41.46,transitional_surface
+14,OBS_046,RKSI-34R,11.71,30.81,19.10,transitional_surface
+15,OBS_089,RKSI-34R,9.49,55.64,46.15,transitional_surface
+16,OBS_059,RKSI-34R,5.15,21.88,16.73,transitional_surface
+17,OBS_041,RKSI-34L,4.70,57.00,52.30,transitional_surface
+18,OBS_041,RKSI-34R,4.50,57.00,52.50,inner_horizontal_surface
+19,OBS_025,RKSI-34L,4.09,56.39,52.30,transitional_surface
+20,OBS_068,RKSI-34L,3.65,36.30,32.65,transitional_surface
