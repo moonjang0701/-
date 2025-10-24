@@ -12,15 +12,15 @@ __version__ = "1.0.0"
 __author__ = "UAV Safety Team"
 
 from .safety_envelope import SafetyEnvelope
+from .conflict_probability import ConflictProbabilityCalculator
 
 # 다음 단계에서 구현 예정
-# from .conflict_probability import ConflictProbability
 # from .safety_field import SafetyField
 # from .trajectory_planning import TrajectoryPlanner
 
 __all__ = [
     "SafetyEnvelope",
-    # "ConflictProbability",
+    "ConflictProbabilityCalculator",
     # "SafetyField",
     # "TrajectoryPlanner",
 ]
