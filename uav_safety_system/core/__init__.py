@@ -13,14 +13,15 @@ __author__ = "UAV Safety Team"
 
 from .safety_envelope import SafetyEnvelope
 from .conflict_probability import ConflictProbabilityCalculator
+from .safety_field import UAV, AirspaceSafetyField
 
 # 다음 단계에서 구현 예정
-# from .safety_field import SafetyField
 # from .trajectory_planning import TrajectoryPlanner
 
 __all__ = [
     "SafetyEnvelope",
     "ConflictProbabilityCalculator",
-    # "SafetyField",
+    "UAV",
+    "AirspaceSafetyField",
     # "TrajectoryPlanner",
 ]
