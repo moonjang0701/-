@@ -1,0 +1,49 @@
+# UAV 공역 안전성 측정 시스템 설정 파일 (빠른 테스트용)
+# 출처: 논문 Table 1 기준 (계산 속도 최적화)
+
+# UAV 비행 성능 파라미터
+uav_performance:
+  Vf: 5.0          # 최대 전방 속도 (km/min)
+  Vb: 2.0          # 최대 후방 속도 (km/min)
+  Va: 0.9          # 최대 상승 속도 (km/min)
+  Vd: 1.5          # 최대 하강 속도 (km/min)
+  Vl: 3.0          # 최대 횡방향 속도 (km/min)
+  response_time: 60  # 응답 시간 (seconds)
+
+# 위치 불확실성 파라미터
+uncertainty:
+  r_A1: 0.2        # along-track 분산 성장률 (km·min^(-1/2))
+  r_A2: 0.1        # cross-track 분산 성장률 1 (km·min^(-1/2))
+  r_A3: 0.1        # cross-track 분산 성장률 2 (km·min^(-1/2))
+
+# 공역 설정 (작은 영역으로 빠른 테스트)
+airspace:
+  x_min: 0         # 공역 X축 최소값 (km)
+  x_max: 30        # 공역 X축 최대값 (km) - 100에서 30으로 축소
+  y_min: 0         # 공역 Y축 최소값 (km)
+  y_max: 30        # 공역 Y축 최대값 (km) - 100에서 30으로 축소
+  z_min: 0         # 공역 Z축 최소값 (km)
+  z_max: 10        # 공역 Z축 최대값 (km) - 20에서 10으로 축소
+  grid_resolution: 2.0  # 그리드 셀 크기 (km) - 0.5에서 2.0으로 증가
+
+# 시뮬레이션 설정
+simulation:
+  time_step: 1     # 시뮬레이션 시간 간격 (min)
+  total_time: 15   # 총 시뮬레이션 시간 (min)
+  waypoint_count: 20  # 경로점 개수 - 99에서 20으로 축소
+  safety_threshold: 0.01  # 충돌 확률 임계값 (1%)
+
+# 경로 계획
+trajectory:
+  start_position: [15, 0, 5]    # X0: 시작 위치 (km) [x, y, z]
+  end_position: [15, 30, 5]     # XD: 목표 위치 (km) [x, y, z]
+  velocity: [0, 10, 0]          # vB: 기본 속도 벡터 (km/min) [vx, vy, vz]
+  gamma: 1.0                    # 안전 가중치 (Safety weight parameter)
+
+# 출력 설정
+output:
+  result_directory: "output/test_run"    # 결과 저장 디렉토리
+  save_plots: true              # 시각화 결과 저장 여부
+  save_csv: true                # CSV 데이터 저장 여부
+  plot_format: "png"            # 플롯 이미지 포맷 (png, pdf, svg)
+  plot_dpi: 150                 # 플롯 해상도 (DPI) - 300에서 150으로 축소
