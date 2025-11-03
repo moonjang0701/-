@@ -14,22 +14,30 @@ import time
 
 @dataclass
 class UAVFlight:
-    """단일 UAV 비행 정보"""
+    """단일 UAV 편도 비행 정보 (출항 OR 입항)"""
     uav_id: int
-    start_time: float        # 타임슬롯 내 출발 시간 (분)
-    end_time: float          # 타임슬롯 내 도착 시간 (분)
+    start_time: float        # 출발 시간 (분)
+    end_time: float          # 도착 시간 (분)
     start_pos: np.ndarray    # 출발 위치 [x, y, z] (km)
     end_pos: np.ndarray      # 도착 위치 [x, y, z] (km)
+    flight_type: str         # "outbound" (출항) or "inbound" (입항)
     
     def get_position(self, t: float, gps_noise_std: float = 0.005) -> np.ndarray:
         """
         타임슬롯 내 시간 t에서의 위치 (GPS 오차 포함)
+        
+        출항: base → destination
+        입항: destination → base
         """
         if t < self.start_time or t > self.end_time:
             return None
         
-        progress = (t - self.start_time) / (self.end_time - self.start_time)
-        pos = self.start_pos + progress * (self.end_pos - self.start_pos)
+        duration = self.end_time - self.start_time
+        if duration > 0:
+            progress = (t - self.start_time) / duration
+            pos = self.start_pos + progress * (self.end_pos - self.start_pos)
+        else:
+            pos = self.start_pos.copy()
         
         # GPS 오차
         noise = np.array([
@@ -83,11 +91,18 @@ class MonteCarloTimeSeparated:
         """
         단일 타임슬롯(1시간)용 UAV 생성
         
-        핵심: 모든 UAV가 0~60분 내에서 출발하고 도착함
+        핵심: num_uavs/2는 출항, num_uavs/2는 입항
+        - 출항: base → 목적지
+        - 입항: 목적지 → base
+        
+        모든 비행이 0~60분 내에서 완료됨
         """
         flights = []
+        uav_id = 0
         
-        for i in range(num_uavs):
+        # 출항 UAV (절반)
+        num_outbound = num_uavs // 2
+        for i in range(num_outbound):
             # 출발 시간: 0~60분 랜덤
             start_time = np.random.uniform(0, 60)
             
@@ -104,14 +119,46 @@ class MonteCarloTimeSeparated:
                 end_time = 60
             
             flight = UAVFlight(
-                uav_id=i,
+                uav_id=uav_id,
                 start_time=start_time,
                 end_time=end_time,
                 start_pos=self.base_position.copy(),
-                end_pos=destination
+                end_pos=destination,
+                flight_type="outbound"
             )
             
             flights.append(flight)
+            uav_id += 1
+        
+        # 입항 UAV (절반)
+        num_inbound = num_uavs - num_outbound  # 홀수일 경우 대비
+        for i in range(num_inbound):
+            # 출발 시간: 0~60분 랜덤
+            start_time = np.random.uniform(0, 60)
+            
+            # 출발지 (랜덤 위치에서 시작)
+            origin = self.generate_random_destination()
+            distance = np.linalg.norm(self.base_position - origin)
+            
+            # 비행 시간
+            flight_duration = distance / self.cruise_speed
+            end_time = start_time + flight_duration
+            
+            # 60분 넘어가면 잘라냄
+            if end_time > 60:
+                end_time = 60
+            
+            flight = UAVFlight(
+                uav_id=uav_id,
+                start_time=start_time,
+                end_time=end_time,
+                start_pos=origin,
+                end_pos=self.base_position.copy(),
+                flight_type="inbound"
+            )
+            
+            flights.append(flight)
+            uav_id += 1
         
         return flights
     
