@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cheongna Red Box (75m x 75m x 448m)</name>
+    <LookAt>
+      <heading>327.04412726540033</heading>
+      <tilt>83.29890837595849</tilt>
+      <latitude>37.533053</latitude>
+      <longitude>126.633973</longitude>
+      <range>500</range>
+      <altitude>0</altitude>
+    </LookAt>
+    <Style id="redBox">
+      <!-- KML colors use aabbggrr; ff0000ff is opaque red -->
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff0000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Cheongna Red Box (75 x 75)</name>
+      <styleUrl>#redBox</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              126.6334882019707,37.53316986669062,448
+              126.6343377980293,37.53316986669062,448
+              126.6343377980293,37.53249613330937,448
+              126.6334882019707,37.53249613330937,448
+              126.6334882019707,37.53316986669062,448
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

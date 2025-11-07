@@ -1,0 +1,23 @@
+# GeoJSON 원본 데이터 (31,388개 파일)
+bld_*.geojson
+*.zip
+
+# 생성된 대용량 KML 파일
+cheongna_buildings_5km.kml
+cheongna_buildings_above_*.kml
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 임시 파일
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS 파일
+.DS_Store
+Thumbs.db

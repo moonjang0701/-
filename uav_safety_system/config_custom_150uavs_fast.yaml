@@ -1,0 +1,51 @@
+# UAV 공역 안전성 측정 시스템 - 커스텀 시나리오 (최적화 버전)
+# 공역: 1500m x 900m, UAV: 150대, 운영 시간: 8시간
+# 계산 최적화: 해상도 조정 (50m → 100m)
+
+# UAV 비행 성능 파라미터 (논문 Table 1 기준)
+uav_performance:
+  Vf: 5.0          # 최대 전방 속도 (km/min)
+  Vb: 2.0          # 최대 후방 속도 (km/min)
+  Va: 0.9          # 최대 상승 속도 (km/min)
+  Vd: 1.5          # 최대 하강 속도 (km/min)
+  Vl: 3.0          # 최대 횡방향 속도 (km/min)
+  response_time: 60  # 응답 시간 (seconds)
+
+# 위치 불확실성 파라미터
+uncertainty:
+  r_A1: 0.2        # along-track 분산 성장률 (km·min^(-1/2))
+  r_A2: 0.1        # cross-track 분산 성장률 1 (km·min^(-1/2))
+  r_A3: 0.1        # cross-track 분산 성장률 2 (km·min^(-1/2))
+
+# 공역 설정 (1500m x 900m = 1.5km x 0.9km)
+airspace:
+  x_min: 0         # 공역 X축 최소값 (km)
+  x_max: 1.5       # 공역 X축 최대값 (km) - 1500m
+  y_min: 0         # 공역 Y축 최소값 (km)
+  y_max: 0.9       # 공역 Y축 최대값 (km) - 900m
+  z_min: 0         # 공역 Z축 최소값 (km)
+  z_max: 0.5       # 공역 Z축 최대값 (km) - 500m
+  grid_resolution: 0.1  # 그리드 셀 크기 (km) = 100m (계산 속도 우선)
+  # 그리드 포인트: 15 x 9 x 5 = 675 포인트 (5,400에서 1/8로 감소)
+
+# 시뮬레이션 설정 (8시간 운영)
+simulation:
+  time_step: 1     # 시뮬레이션 시간 간격 (min)
+  total_time: 480  # 총 시뮬레이션 시간 (min) = 8시간
+  waypoint_count: 50  # 경로점 개수
+  safety_threshold: 0.01  # 충돌 확률 임계값 (1%)
+
+# 경로 계획 (공역 중앙을 가로지르는 경로)
+trajectory:
+  start_position: [0.75, 0.0, 0.25]    # 중앙 하단에서 시작
+  end_position: [0.75, 0.9, 0.25]      # 중앙 상단으로 이동
+  velocity: [0, 5, 0]                  # 기본 속도 (5 km/min)
+  gamma: 1.5                           # 안전 가중치 (높은 밀도이므로 안전 중시)
+
+# 출력 설정
+output:
+  result_directory: "output/custom_150uavs"  # 결과 저장 디렉토리
+  save_plots: true              # 시각화 결과 저장 여부
+  save_csv: true                # CSV 데이터 저장 여부
+  plot_format: "png"            # 플롯 이미지 포맷
+  plot_dpi: 200                 # 플롯 해상도
